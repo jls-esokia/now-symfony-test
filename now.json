@@ -3,7 +3,11 @@
     "name": "symfony-test",
     "builds": [{
         "src": "public/*.php",
-        "use": "@now/php"
+        "use": "@juicyfx/php@canary",
+        "config": {
+            "composer": true,
+            "v": "7.3"
+        }
     }],
     "github": {
         "enabled": true
