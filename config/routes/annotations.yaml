@@ -1,3 +1,4 @@
-controllers:
-    resource: ../../src/Controller/
-    type: annotation
+app:
+    controller: App\Controller\MainController::index
+    methods: GET
+    path: /
